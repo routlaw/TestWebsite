@@ -25,14 +25,12 @@ body {
 }
 .projects{
     background:white;
-    border:black;
-    border-style:solid;
+    border-style:dashed;
     border-width:2px;
     float:left;
     padding:10px;
     margin:2px;
     width: 100%;
-    
 }
 h1 {
     font-family: 'Old Standard TT', serif;
