@@ -1,44 +1,57 @@
+a:active {
+    color: #0000FF;
+}
+a:hover {
+    color: black;
+}
 a:link {
     color: #000000;
 }
 a:visited {
     color: #5c5c5c;
 }
-a:hover {
-    color: #FF0000;
+article {
+    background: white;
+    float: left;
+    margin: 0;
+    min-height: 350px;
+    overflow: hidden;
+    padding: 5px;
+    position: relative;
+    text-align: center;
+    width: 300px;
 }
-a:active {
-    color: #0000FF;
+article h2 {
+    background: rgba(0, 0, 0, 0.75);
+    bottom: 54px;
+    color: white;
+    font-size: 24px;
+    margin: 0;
+    padding: 8px 8px;
+    position: absolute;
+    text-align: left;
+}
+article img {
+    border: 1px solid #021a40;
+    height: 300px;
+    overflow: hidden;
+    width: 300px;
+}
+article p {
+    bottom: 13px;
+    color: black;
+    font-size: 11px;
+    font-style: italic;
+    margin: 0;
+    position: absolute;
+    padding: 8px 8px;
+    text-align: left;
 }
 body {
     background: #cccccc;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 500;
     font-size: 14px;
-}
-.body {
-    background: white;
-    float: left;
-    padding:10px;
-    margin:0px;
-    width: 100%;
-}
-.projects{
-    background:white;
-    border-top:medium dashed gray;
-    border-width:1px;
-    float:left;
-}
-@media (max-width: 1500px) {
-  .imgrt {
-    width: 20%;
-  }
-}
-/*
-@media (max-width: 300px) {
-    max-width:50px;
-    }
-*/
+    font-weight: 500;
 }
 h1 {
     font-family: 'Old Standard TT', serif;
@@ -55,22 +68,19 @@ h3 {
     font-size: 14px;
     font-weight: bold;
 }
-#header {
+header {
     float: left;
     line-height: 90%;
     margin-left: 2px;
     padding: 0px;
     vertical-align: middle;
 }
+header a {
+    text-decoration: none;
+}
 .imghead {
     float: right;
     padding: 2px;
-}
-.imgrt {
-    float: left;
-    overflow:hidden;    
-    padding: 2px;
-    height:auto;
 }
 nav {
     background: #cccccc;
@@ -82,9 +92,46 @@ nav {
     padding-right: 5px;
     vertical-align: middle;
 }
+section {
+    background: white;
+    float: left;
+    margin: 0px;
+    padding: 10px;
+    position: relative;
+    width: 100%;
+}
 #socialcontainer ul li {
     display: inline;
     float: left;
     list-style: none;
     text-decoration: none;
+    padding-right: 20px;
+    padding-top: 20px;
 }
+
+/*
+.projects{
+    background:white;
+    border-top:medium dashed gray;
+    border-width:1px;
+    float:left;
+    min-width:250px;
+    position:relative;
+    width:100%;
+}
+*/
+/*
+@media (max-width: 1500px) {
+  .imgrt {
+    width: 100%;
+  }
+}
+*/
+/*
+article h3{
+    position:absolute;
+    margin:0;
+    top:3.5em;
+    font-size: 14px;
+}
+*/
